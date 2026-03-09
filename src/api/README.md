@@ -1,7 +1,7 @@
 ## Intructions to build Container Image for this FastAPI App 
 
 Create the Dockerfile in the root of the source code (`house-prcice-predictor`). 
-
+  
 Following is all the information you would need to start building the container image for this app 
 
 
@@ -23,4 +23,3 @@ Directory structure inside the container should look like this
          house_price_model.pkl
          preprocessor.pkl
 ```
-

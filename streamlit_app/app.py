@@ -1,4 +1,4 @@
-import streamlit as st
+docker import streamlit as st
 import requests
 import json
 import time
