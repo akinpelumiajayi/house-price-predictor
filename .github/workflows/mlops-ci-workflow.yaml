@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
- e2e_mlops_ Workflow:
+ e2e_mlops_Workflow:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -72,11 +72,11 @@ jobs:
                                                                                                       -
       - name: Build and push
         uses: docker/build-push-action@v6
-            with:
-              push: true
-              tags: tepelumi2010/fastapi:{{ github.sha}}
-              context: "."
-              file: "Dockerfile"
+        with:
+          push: true
+          tags: tepelumi2010/fastapi:{{ github.sha}}
+          context: "."
+          file: "Dockerfile"
 
 
 
