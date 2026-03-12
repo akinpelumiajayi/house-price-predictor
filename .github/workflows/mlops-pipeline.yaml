@@ -22,8 +22,6 @@ on:
         default: 'false'
   release:
     types: [created]
-    branches: [ main ]
-    tags: [ 'v*.*.*' ]
     
 jobs:
   data-processing:
